@@ -3744,3 +3744,117 @@ h2 {
 }
 
 
+
+/* =========================================================
+   HOMEPAGE REVIEWS
+   ========================================================= */
+
+.home-reviews {
+  background: var(--cream);
+  padding: 100px max(6vw, 30px);
+}
+
+.home-reviews-inner {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+.home-reviews-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.home-reviews-heading h2 {
+  font-family: "Playfair Display", serif;
+  color: var(--navy);
+  font-size: clamp(2.7rem, 5vw, 4.7rem);
+  line-height: 1.04;
+  margin: 10px 0 0;
+}
+
+.home-reviews-script {
+  font-family: "Caveat", cursive;
+  color: var(--green);
+  font-size: clamp(2.5rem, 4vw, 3.8rem);
+  transform: rotate(-5deg);
+  white-space: nowrap;
+}
+
+.home-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.home-review-card {
+  position: relative;
+  background: var(--white);
+  border-top: 5px solid var(--green);
+  padding: 36px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home-review-card-gold {
+  border-top-color: var(--gold);
+}
+
+.home-review-quote {
+  position: absolute;
+  right: 22px;
+  top: -32px;
+  font-family: "Playfair Display", serif;
+  font-size: 9rem;
+  color: rgba(0, 45, 73, 0.07);
+}
+
+.home-review-card blockquote {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 28px;
+  font-family: "Playfair Display", serif;
+  color: var(--navy);
+  font-size: 1.32rem;
+  line-height: 1.55;
+}
+
+.home-review-author {
+  margin-top: auto;
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.home-reviews-link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+
+  .home-reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 760px) {
+
+  .home-reviews {
+    padding: 70px 20px;
+  }
+
+  .home-reviews-heading {
+    display: block;
+  }
+
+  .home-reviews-script {
+    margin-top: 25px;
+  }
+
+}
