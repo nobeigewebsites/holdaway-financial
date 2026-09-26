@@ -5179,3 +5179,95 @@ h2 {
   }
 
 }
+
+/* =========================================================
+   ARTICLE TYPOGRAPHY ALIGNMENT
+   Match the main Holdaway website
+   ========================================================= */
+
+/* Major editorial headings */
+
+.article-hero h1,
+.article-intro h2,
+.article-section h2,
+.article-impact h2,
+.article-planning-copy h2,
+.article-result h2,
+.article-crosslink h2,
+.article-ending h2,
+.article-cta h2 {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-weight: 500 !important;
+}
+
+
+/* Hero title — same elegant editorial character as main pages */
+
+.article-hero h1 {
+  letter-spacing: -0.035em !important;
+  line-height: 0.98 !important;
+}
+
+
+/* Smaller article headings */
+
+.article-cashflow-step h3,
+.article-whatif-card h3 {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-weight: 500 !important;
+}
+
+
+/* Large figures */
+
+.article-number-item strong,
+.article-comparison strong,
+.article-result-number {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-weight: 500 !important;
+}
+
+
+/* Body copy */
+
+.article-hero-intro,
+.article-intro p,
+.article-section p,
+.article-impact p,
+.article-planning-copy p,
+.article-planning-questions span,
+.article-number-item span,
+.article-comparison p,
+.article-cashflow-step p,
+.article-whatif-card p,
+.article-crosslink p,
+.article-ending p,
+.article-case-note p,
+.article-cta p {
+  font-family: "DM Sans", Arial, sans-serif !important;
+}
+
+
+/* Handwritten decorative wording */
+
+.article-hero-script,
+.article-intro-note span,
+.article-impact-script,
+.article-image-script,
+.article-whatif-card > span,
+.article-cta-script {
+  font-family: "Caveat", cursive !important;
+  font-weight: 500 !important;
+}
+
+
+/* Eyebrows / categories */
+
+.article-body .eyebrow,
+.article-intro .eyebrow,
+.article-hero .eyebrow,
+.article-cta .eyebrow,
+.article-back-link {
+  font-family: "DM Sans", Arial, sans-serif !important;
+}
+
